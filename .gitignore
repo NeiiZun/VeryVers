@@ -1,2 +1,14 @@
+### IntelliJ IDEA ###
 .idea
+*.iws
 *.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Backend project ###
+Backend/build
+Backend/src/test
+Backend/.gradle
+Backend/src/main/resources/application.properties
